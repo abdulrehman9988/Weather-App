@@ -52,6 +52,17 @@ body{
     cursor: pointer;
 }
 
+@media only screen and (max-width: 430px){
+    .search input{
+     height: 50px;
+     width: 190px;
+    }
+    .search button{
+       width:50px;
+       height: 50px;
+    }
+ }
+
 .weather-icon{
     width: 170px;
     margin-top: 3px;
